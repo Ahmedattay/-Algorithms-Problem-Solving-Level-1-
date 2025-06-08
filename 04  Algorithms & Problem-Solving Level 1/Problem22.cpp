@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
+const double PI = 3.14159265358979323846;
 // Function to calculate area of circle inscribed in an isosceles triangle
 // Given base (b) and equal side (a)
 double inscribedCircleArea(double a, double b) {
@@ -14,7 +14,7 @@ double inscribedCircleArea(double a, double b) {
     // Radius of inscribed circle
     double r = area / s;
     // Area of circle
-    return M_PI * r * r;
+    return PI * r * r;
 }
 
 int main() {
